@@ -4,4 +4,4 @@
 
 In this project, I plan to build an end-to-end serverless data pipeline as below:
 
-<img src="../images/indi4 (3).png" width="50%">
+<img src="diagram.png" width="50%">
