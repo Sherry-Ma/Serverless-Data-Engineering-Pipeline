@@ -1,6 +1,6 @@
 # Serverless-Data-Engineering-Pipeline
 
-## Introduction
+## Diagram
 
 In this project, I plan to build an end-to-end serverless data pipeline as below:
 
