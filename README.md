@@ -13,18 +13,7 @@ In this project, a serverless architecture has been built using various AWS serv
 The workflow comprises of two Lambda functions. The first function reads data from the DynamoDB table and puts messages into an SQS queue, while the second function reads from the SQS queue, generates Wikipedia snippets, performs analysis using AWS Comprehend, and writes the results to an S3 bucket.
 
 
-
-## Pipeline Architecture
-
-<img width="701" alt="image" src="https://user-images.githubusercontent.com/104106034/231558580-ee32b89c-0bbc-4a91-9b53-c03e0bb0e079.png">
-
-## Reference
-
-Source code: https://github.com/noahgift/awslambda
-
-
-
-## Steps of building the project from scratch
+## Steps of building the project
 
 ### 1. Create Cloud9 working environment, DynamoDB table, SQS queue, and S3 bucket
 
@@ -95,4 +84,8 @@ The second lambda function is responsible for reading messages from an SQS queue
 - create SAM application named as 'checkSQS' or whatever you want in a similar way
 - Add permission role with SQSaccess and adminaccess
 - Add a SQS trigger that grabs message from SQS and send it for sentiment analysis
+
+## Reference
+
+Source code: https://github.com/noahgift/awslambda
 
