@@ -20,7 +20,7 @@ The workflow comprises of two Lambda functions. The first function reads data fr
 - On AWS Cloud9 console, open the IDE of your working environment, create a new directory for this project.
 - On AWS DynamoDB console, create the new table with the name 'fang' or whatever you want
 - Add "Google", "Facebook", or whatever you want to add in the created table
-- On AWS SQS console, create a standard queue called 'ProducerSQS' (or whatever your want)
+- On AWS SQS console, create a standard queue called 'ProducerSQS' 
 - Open AWS S3 console, create a bucket called 'fangsentiment'(or whatever you want). But, the bucket name should be globally unique.
 
 
